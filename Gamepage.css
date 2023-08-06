@@ -1,0 +1,99 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.main{
+    background-color: green;
+    width: 100vw;
+    height: 100vh;
+}
+.header{
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    top: 50px;
+    left: 25%;
+    width: 50%;
+    height: 15%;
+    border: 2px solid white;
+}
+#names{
+    padding-left: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    color: white;
+    font-weight: bolder;
+    font-size: 20px;
+    
+}
+#score{
+    /* border: 2px solid red; */
+    width: 50%;
+    margin: 8px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+     left: 225px;
+}
+.box1{
+border: 2px solid black;
+width: 30%;
+background-color: white;
+}
+.box2{
+    border: 2px solid black;
+    width: 30%;
+  background-color: white;  
+}
+
+
+
+.footer{
+    width: 100vw;
+    height: 70vh;
+    border: 2px solid white;
+    display: flex;
+    flex-wrap: wrap;
+    position: absolute;
+    bottom: 0%;
+}
+
+.button1{
+border: 2px solid red;
+
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+top: 40px;
+left: 500px;
+width: 50px;
+height: 40px;
+}
+.button2{
+border: 2px solid white;
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+top: 40px;
+left: 750px;
+width: 50px;
+height: 40px;
+}
+.button3{
+border: 2px solid lightcoral;
+display: flex;
+flex-wrap: wrap;
+position: absolute;
+top: 200px;
+left: 625px;
+width: 50px;
+height: 40px;
+}
+.buttonimage{
+    width: 50px;
+height: 40px;
+}
